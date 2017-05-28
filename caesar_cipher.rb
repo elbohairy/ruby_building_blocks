@@ -5,7 +5,7 @@ def caesar_cipher(str, shift)
     shifted_words.push(shifter(word, shift) )
   end
   
-  puts shifted_words.join(' ')
+  return shifted_words.join(' ')
 end
 
 def shifter(word, shift)
